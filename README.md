@@ -1,2 +1,2 @@
-# Daily-Python-programming
+# Daily-Python
 Daily Exercise
