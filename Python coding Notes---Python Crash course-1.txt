@@ -1,0 +1,299 @@
+Python for Data Science and Machine Learning Bootcamp (Udemy)
+Python coding Notes---Python Crash course-1
+
+Data type
+
+Numbers
+strings 
+printing formating 
+lists 
+dictionaries 
+booleans 
+TUples and sets 
+Comparison Operators 
+if,elif and sels statements 
+for loops 
+while loops 
+range()
+list comprehension 
+functions
+lambda expressions 
+map and filter
+
+
+
+4%2=0
+5%2=1    --check remainder
+
+
+var = 2 
+var 
+x=2
+y=3
+
+x+y
+5
+
+12var ---can not start with number 
+name_of_var =12
+
+# strings  --comment  
+
+'single quote'
+"this is a string"
+
+"I can't go"
+
+format print statment :
+
+num=12
+name='sam'
+
+'My number is {one} and my name is {two}'.format(one=num,two=name)
+--My number is 12 and my name is Sam, more 12 
+
+s='hello'
+
+s[0]
+'h'
+
+s[4]
+'o'
+
+s='abcdefghijk'
+
+slice notation
+s[0:] 'abcdefghijk'
+s[:3] 'abc'
+s[0:3] 'abc'
+S[3:6] 'def'
+[1,2,3]
+['A','B','C']
+
+s[:3] ( NOT INCLUDE 3)  A,B,C ---0 1 2
+'abc'
+s[3:6]
+'def'
+
+[1,2,3]
+['a','b','c']
+
+--add element to my list 
+my_list=['a','b','c']
+my_list.append('d')
+my_list
+['a','b','c','d']
+
+my_list[0]
+'a'
+my_list[1:3]
+['b','c']
+
+my_list[0]='NEW'
+['NEW','b','c','d']
+
+nest=[1,2,[3,4]]
+
+nest
+[1,2,[3,4]]
+
+nest[2]
+[3,4]
+
+nest[2][1]
+
+4
+nest=[1,2,3,[4,5,['target']]]
+print(nest[3][2][0])
+['target']  
+
+5
+d= {‘KEY1':'value','key2':123}
+d['key1']
+
+d['key2']
+
+d={'k1':[1,2,3]}
+
+d['k1'][1]
+[1,2,3]
+
+MY_LIST =d['k1']
+[1,2,3]
+
+my_list[0]
+1
+
+d['k1'][0]
+1
+
+DIC INSIDE ANOTHER D
+
+ 
+D= {'k1':{'innerkey':[1,2,3]}}
+
+D=['K1']['innerkey'][1]
+2
+
+Booleans
+
+True 
+False
+
+
+compare dictionary with Tuple 
+
+dictionary
+my_list=[1,2,3]
+
+my_list[0]
+1
+
+replace 0 in my list to 'NEW'
+
+
+my_list = 'NEW'
+
+my_list 
+[‘NEW’,2,3]
+
+--TUPLE DOES NOT support item assignment
+t =(1,2,3)
+t[0]
+1
+
+set ---define by only unique element; way to grab unique element 
+{1,2,3}
+
+set([1,1,1,2,2,2,5,5,5,6,6,6])
+--{1,2,5,6}
+
+s={1,2,3}
+s.add(5)  --add 5
+1,2,3,5
+s.add(5) -- add 5 again
+
+s   ---print s 
+(1,2,3,5) -- still show 1,2,3,5
+
+
+comparison operators
+
+1>2
+false
+1<2
+True
+
+= assign parameter
+== check quality
+!= check quality
+1==1 
+True
+
+1!=3
+True
+'hi' != 'bye'
+True
+
+(1<2)and (2>3)
+
+True and False 
+
+--->False
+
+(1<2) or (2>3) or (1==1)
+True      False
+
+---->True
+
+
+True or False ---True
+True and False ---False 
+
+
+if 1<2:
+      print('yep!')
+ 
+if elif else statement 
+
+if 1<2:
+    print('yep!')
+
+if true: 
+     X=2+2 
+
+if 1==2:
+    print('first')
+else:
+    print('last')
+
+
+*** only export the first true condition
+if 1 !=2:
+    print('First')
+elif 3 ==3:
+    print('Middle')
+elif 4==4:
+    print('Second')
+else:
+    print('last')
+
+---Middle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--?,??,??,?????????????????????,??,??,??????,?????????????
+???,???????????,?????????,???????????,?????,???????????,???????????
+ Grace lin
+??????????,???????????????,????????,??????????
+  ???
+
+???,??,??,??,??,??,??,??,??,???,???,?????,???????,????????
+????,?????,????? ---???
+
+?????????????,????????,???????????????????????????????
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
